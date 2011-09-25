@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Testing</title>
+        <style>
+          body{
+            background: black;
+            color: green;
+          }
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script src="coolfill.js"></script>
+    </head>
+    <body>
+        <input id="src" type="text" value="Lovely Text Fill Sir" />
+        <button id="btn">lets do a fill</button>
+        <div>
+            <h1 id="fillme">I'm gonna be filled!</h1>
+        </div>
+        <script>
+          jQuery(function($) {
+            $('#btn').click(function() {
+              $('#fillme').coolFill($('#src').val(), {});
+            }).click();
+          });
+        </script>
+    </body>
+</html>
