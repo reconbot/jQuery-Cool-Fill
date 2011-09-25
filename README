@@ -1,0 +1,15 @@
+I was watching the Dues Ex Human Revolution end credts and thought the text fill they were using was cool.
+http://www.youtube.com/watch?v=PMMcd6-D4x8
+
+Here is my version of it. It should work on any div or span that has no child elements.
+
+TODO:
+ - Make it fill in constant time.
+ - Add more "cool chars"
+
+Useage:
+  $('#fillme').coolFill("text");
+
+Demo:
+
+http://jsfiddle.net/reconbot/2qNx4/12/
